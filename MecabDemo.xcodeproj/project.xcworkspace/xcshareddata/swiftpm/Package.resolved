@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "mecab",
+        "repositoryURL": "https://github.com/landonepps/mecab",
+        "state": {
+          "branch": null,
+          "revision": "9d22dbb57e4845c8fcb0abc1ee482afc46ba9da7",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
