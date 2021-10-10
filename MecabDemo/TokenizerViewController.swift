@@ -32,6 +32,7 @@ class TokenizerTableViewController: UIViewController {
         let textField = UITextField()
         textField.placeholder = "Text to tokenize..."
         textField.borderStyle = .roundedRect
+        textField.clearButtonMode = .whileEditing
         textField.translatesAutoresizingMaskIntoConstraints = false
         return textField
     }()
