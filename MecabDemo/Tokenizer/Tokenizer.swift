@@ -33,7 +33,7 @@
         */
         func parse(_ text: String) -> [Token] {
             if mecab == nil {
-                guard let path = Bundle.main.resourcePath else {
+                guard let path = URL(string: "dicdir", relativeTo: Bundle.main.resourceURL)?.path else {
                     assertionFailure("Unable to get resource path.")
                     return []
                 }
@@ -50,7 +50,7 @@
             nodePtr = mecab_sparse_tonode2(mecab, buf, l)
             
             if nodePtr == nil {
-                fputs("error\n", stderr)
+                assertionFailure("Initial node is nil.")
                 return []
             }
             

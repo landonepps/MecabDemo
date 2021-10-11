@@ -11,17 +11,9 @@
 		44299DD427122E7600DC48A8 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44299DD227122E7600DC48A8 /* Token.swift */; };
 		44299DD727122EC700DC48A8 /* mecab in Frameworks */ = {isa = PBXBuildFile; productRef = 44299DD627122EC700DC48A8 /* mecab */; };
 		44299DD927122EC700DC48A8 /* mecab in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 44299DD627122EC700DC48A8 /* mecab */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		44299DE527122F0100DC48A8 /* rewrite.def in Resources */ = {isa = PBXBuildFile; fileRef = 44299DDC27122F0100DC48A8 /* rewrite.def */; };
-		44299DE627122F0100DC48A8 /* left-id.def in Resources */ = {isa = PBXBuildFile; fileRef = 44299DDD27122F0100DC48A8 /* left-id.def */; };
-		44299DE727122F0100DC48A8 /* pos-id.def in Resources */ = {isa = PBXBuildFile; fileRef = 44299DDE27122F0100DC48A8 /* pos-id.def */; };
-		44299DE827122F0100DC48A8 /* matrix.bin in Resources */ = {isa = PBXBuildFile; fileRef = 44299DDF27122F0100DC48A8 /* matrix.bin */; };
-		44299DE927122F0100DC48A8 /* unk.dic in Resources */ = {isa = PBXBuildFile; fileRef = 44299DE027122F0100DC48A8 /* unk.dic */; };
-		44299DEA27122F0100DC48A8 /* sys.dic in Resources */ = {isa = PBXBuildFile; fileRef = 44299DE127122F0100DC48A8 /* sys.dic */; };
-		44299DEB27122F0100DC48A8 /* dicrc in Resources */ = {isa = PBXBuildFile; fileRef = 44299DE227122F0100DC48A8 /* dicrc */; };
-		44299DEC27122F0100DC48A8 /* right-id.def in Resources */ = {isa = PBXBuildFile; fileRef = 44299DE327122F0100DC48A8 /* right-id.def */; };
-		44299DED27122F0100DC48A8 /* char.bin in Resources */ = {isa = PBXBuildFile; fileRef = 44299DE427122F0100DC48A8 /* char.bin */; };
-		44299DEF27122F1100DC48A8 /* mecabrc in Resources */ = {isa = PBXBuildFile; fileRef = 44299DEE27122F1100DC48A8 /* mecabrc */; };
 		44299DF3271232D800DC48A8 /* TokenizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44299DF2271232D800DC48A8 /* TokenizerViewController.swift */; };
+		442B60052714C6CF0068DDD6 /* dicdir in Resources */ = {isa = PBXBuildFile; fileRef = 442B60042714C6CF0068DDD6 /* dicdir */; };
+		442B60072714CC720068DDD6 /* Collection+SafeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442B60062714CC720068DDD6 /* Collection+SafeSubscript.swift */; };
 		44C8A98A27122B4C00231A2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C8A98927122B4C00231A2B /* AppDelegate.swift */; };
 		44C8A98C27122B4C00231A2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C8A98B27122B4C00231A2B /* SceneDelegate.swift */; };
 		44C8A99327122B4D00231A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C8A99227122B4D00231A2B /* Assets.xcassets */; };
@@ -45,17 +37,9 @@
 /* Begin PBXFileReference section */
 		44299DD127122E7600DC48A8 /* Tokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
 		44299DD227122E7600DC48A8 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
-		44299DDC27122F0100DC48A8 /* rewrite.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rewrite.def; sourceTree = "<group>"; };
-		44299DDD27122F0100DC48A8 /* left-id.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "left-id.def"; sourceTree = "<group>"; };
-		44299DDE27122F0100DC48A8 /* pos-id.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pos-id.def"; sourceTree = "<group>"; };
-		44299DDF27122F0100DC48A8 /* matrix.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = matrix.bin; sourceTree = "<group>"; };
-		44299DE027122F0100DC48A8 /* unk.dic */ = {isa = PBXFileReference; lastKnownFileType = file; path = unk.dic; sourceTree = "<group>"; };
-		44299DE127122F0100DC48A8 /* sys.dic */ = {isa = PBXFileReference; lastKnownFileType = file; path = sys.dic; sourceTree = "<group>"; };
-		44299DE227122F0100DC48A8 /* dicrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dicrc; sourceTree = "<group>"; };
-		44299DE327122F0100DC48A8 /* right-id.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "right-id.def"; sourceTree = "<group>"; };
-		44299DE427122F0100DC48A8 /* char.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = char.bin; sourceTree = "<group>"; };
-		44299DEE27122F1100DC48A8 /* mecabrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mecabrc; sourceTree = "<group>"; };
 		44299DF2271232D800DC48A8 /* TokenizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenizerViewController.swift; sourceTree = "<group>"; };
+		442B60042714C6CF0068DDD6 /* dicdir */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dicdir; sourceTree = "<group>"; };
+		442B60062714CC720068DDD6 /* Collection+SafeSubscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+SafeSubscript.swift"; sourceTree = "<group>"; };
 		44C8A98627122B4C00231A2B /* MecabDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MecabDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C8A98927122B4C00231A2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44C8A98B27122B4C00231A2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,27 +61,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44299DDB27122F0100DC48A8 /* ipadic */ = {
-			isa = PBXGroup;
-			children = (
-				44299DDC27122F0100DC48A8 /* rewrite.def */,
-				44299DDD27122F0100DC48A8 /* left-id.def */,
-				44299DDE27122F0100DC48A8 /* pos-id.def */,
-				44299DDF27122F0100DC48A8 /* matrix.bin */,
-				44299DE027122F0100DC48A8 /* unk.dic */,
-				44299DE127122F0100DC48A8 /* sys.dic */,
-				44299DE227122F0100DC48A8 /* dicrc */,
-				44299DE327122F0100DC48A8 /* right-id.def */,
-				44299DE427122F0100DC48A8 /* char.bin */,
-			);
-			path = ipadic;
-			sourceTree = "<group>";
-		};
 		44299DF027122F2000DC48A8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				44299DDB27122F0100DC48A8 /* ipadic */,
-				44299DEE27122F1100DC48A8 /* mecabrc */,
+				442B60042714C6CF0068DDD6 /* dicdir */,
 				44C8A99227122B4D00231A2B /* Assets.xcassets */,
 				44C8A99727122B4D00231A2B /* Info.plist */,
 				44C8A99427122B4D00231A2B /* LaunchScreen.storyboard */,
@@ -137,6 +104,7 @@
 				44C8A98927122B4C00231A2B /* AppDelegate.swift */,
 				44C8A98B27122B4C00231A2B /* SceneDelegate.swift */,
 				44299DF2271232D800DC48A8 /* TokenizerViewController.swift */,
+				442B60062714CC720068DDD6 /* Collection+SafeSubscript.swift */,
 				44299DF127122F3E00DC48A8 /* Tokenizer */,
 				44299DF027122F2000DC48A8 /* Resources */,
 			);
@@ -208,18 +176,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44299DE627122F0100DC48A8 /* left-id.def in Resources */,
-				44299DED27122F0100DC48A8 /* char.bin in Resources */,
-				44299DE727122F0100DC48A8 /* pos-id.def in Resources */,
-				44299DEC27122F0100DC48A8 /* right-id.def in Resources */,
 				44C8A99627122B4D00231A2B /* LaunchScreen.storyboard in Resources */,
-				44299DEA27122F0100DC48A8 /* sys.dic in Resources */,
-				44299DEB27122F0100DC48A8 /* dicrc in Resources */,
-				44299DE927122F0100DC48A8 /* unk.dic in Resources */,
+				442B60052714C6CF0068DDD6 /* dicdir in Resources */,
 				44C8A99327122B4D00231A2B /* Assets.xcassets in Resources */,
-				44299DE527122F0100DC48A8 /* rewrite.def in Resources */,
-				44299DEF27122F1100DC48A8 /* mecabrc in Resources */,
-				44299DE827122F0100DC48A8 /* matrix.bin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +193,7 @@
 				44299DD327122E7600DC48A8 /* Tokenizer.swift in Sources */,
 				44299DF3271232D800DC48A8 /* TokenizerViewController.swift in Sources */,
 				44C8A98A27122B4C00231A2B /* AppDelegate.swift in Sources */,
+				442B60072714CC720068DDD6 /* Collection+SafeSubscript.swift in Sources */,
 				44C8A98C27122B4C00231A2B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

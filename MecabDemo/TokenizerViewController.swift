@@ -118,12 +118,16 @@ extension TokenizerTableViewController: UITableViewDataSource {
 
         var secondaryText = [String]()
         // But the other properties aren't required, so they're optional
-        if let reading = token.reading {
-            secondaryText.append("読み: \(reading)")
+        if let kana = token.kana {
+            secondaryText.append("仮名: \(kana)")
         }
 
-        if let originalForm = token.originalForm {
-            secondaryText.append("原形: \(originalForm)")
+        if let pronunciation = token.pronunciation {
+            secondaryText.append("発音: \(pronunciation)")
+        }
+
+        if let lemma = token.lemma {
+            secondaryText.append("語彙素: \(lemma)")
         }
 
         if let inflection = token.inflection {

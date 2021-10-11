@@ -1,0 +1,4 @@
+MecabDemo/Resources/dicdir/matrix.bin filter=lfs diff=lfs merge=lfs -text
+MecabDemo/Resources/dicdir/sys.dic filter=lfs diff=lfs merge=lfs -text
+sys.dic filter=lfs diff=lfs merge=lfs -text
+matrix.bin filter=lfs diff=lfs merge=lfs -text
